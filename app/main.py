@@ -11,7 +11,7 @@ from app.routers import foto
 app = FastAPI(
     title="API Love",
     description="API para publicaciones, categorías y fotos",
-    version="1.0.0"
+    version="1.0.0",
     root_path="/api"
 )
 
